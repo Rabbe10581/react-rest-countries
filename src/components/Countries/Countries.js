@@ -13,7 +13,7 @@ const Countries = () => {
 
     return (
         <div>
-            <h1>World Tour: {countries.length}</h1>
+            <h2>World Tour: {countries.length}</h2>
             <div className='countries-container'>
                 {
                     countries.map(country => <Country country={country}

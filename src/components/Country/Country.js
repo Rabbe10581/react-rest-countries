@@ -4,7 +4,7 @@ import './Country.css'
 const Country = (props) => {
     const { area, region, capital, name, flags } = props.country;
     return (
-        <div className='country'>
+        <div className='country bg-warning text-white'>
             <h2>Country: {name.common}</h2>
             <img src={flags.png} alt="" />
             {/* <h3>Population: {population}</h3> */}
