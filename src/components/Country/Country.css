@@ -1,0 +1,11 @@
+.country {
+    color: brown;
+    margin: 20px;
+    padding: 10px;
+    background-color: bisque;
+    border: 2px solid darkslateblue;
+}
+
+.country img {
+    width: 150px;
+}
